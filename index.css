@@ -1,97 +1,98 @@
-:root{
-    --backgroundColor: whitesmoke;
-    --sidebarBGColor: rgb(242, 242, 242); 
-    --paragraphColor: rgb(70, 62, 62);
-    --sidebarTextColor: rgb(170, 168, 168);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+:root {
+  --backgroundColor: whitesmoke;
+  --sidebarBGColor: rgb(242, 242, 242);
+  --paragraphColor: rgb(70, 62, 62);
+  --sidebarTextColor: rgb(170, 168, 168);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    background-color: var(--backgroundColor);
+body {
+  background-color: var(--backgroundColor);
 }
 
-#sidebar{
-    float: left;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    padding: 2em;
+#sidebar {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 2em;
 }
 
-#sidebar a{
-    border-radius: 16px;
-    padding: 0.4em 1em;
-    width: 10rem;
-    margin: 0.2em 0;
-    text-align: right;
-    color: var(--sidebarTextColor);
+#sidebar a {
+  border-radius: 16px;
+  padding: 0.4em 1em;
+  width: 10rem;
+  margin: 0.2em 0;
+  text-align: right;
+  color: var(--sidebarTextColor);
 }
 
-#sidebar a:hover{
-    background-color: var(--sidebarBGColor);
-    box-shadow: inset 0px 0px 8px -4px rgba(0, 0, 0, 0.2);
+#sidebar a:hover {
+  background-color: var(--sidebarBGColor);
+  box-shadow: inset 0px 0px 8px -4px rgba(0, 0, 0, 0.2);
 }
 
-#content{
-    display: flex;
-    max-width: 70rem;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0 auto;
+#content {
+  display: flex;
+  max-width: 70rem;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
 }
 
-.article{
-    position: relative;
-    margin: 0 auto;
-    text-align: center;
-    width: 100vw;
-    padding: 2em 0;
-    max-width: 50em;
-    line-height: 1.8;
+.article {
+  position: relative;
+  margin: 0 auto;
+  text-align: justify;
+  width: 100vw;
+  padding: 2em 0;
+  max-width: 50em;
+  line-height: 1.8;
 }
 
-p{
-    color: var(--paragraphColor);
+p {
+  color: var(--paragraphColor);
 }
 
-header{
-    margin: 0 auto;
-    text-align: center;
-    padding: 2em 0;
-    width: 100vw;
-    /* background-color: greenyellow; */
+header {
+  margin: 0 auto;
+  text-align: center;
+  padding: 2em 0;
+  width: 100vw;
+  /* background-color: greenyellow; */
 }
 
-h1 hr{
-    max-width: 20em;
-    margin: 0 auto;
+h1 hr {
+  max-width: 20em;
+  margin: 0 auto;
 }
 
-ul{
-    margin: 2rem auto;
+ul {
+  margin: 2rem auto;
 }
 
-ul li{
-    color: var(--paragraphColor);
-    margin: 1rem 0;
-    background-color: var(--sidebarBGColor);
-    box-shadow: 1px 0 10px -4px rgba(0, 0, 0, 0.2);
-    padding: 0.8rem 1rem;
-    border-radius: 8px;
-    list-style: none;   
+ul li {
+  color: var(--paragraphColor);
+  margin: 1rem 0;
+  background-color: var(--sidebarBGColor);
+  box-shadow: 1px 0 10px -4px rgba(0, 0, 0, 0.2);
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  list-style: none;
+  text-align: center;
 }
 
-ol li{
-    margin: 1rem 0;
-    line-height: 1.6;
+ol li {
+  margin: 1rem 0;
+  line-height: 1.6;
 }
 
-#blank{
-    width: 22rem;
+#blank {
+  width: 22rem;
 }
