@@ -132,6 +132,7 @@ ol li {
   box-shadow: inset 0px 1px 6px -1px rgba(96, 96, 96, 0.139);
   padding: 2em;
   border-radius: 12px;
+  color: var(--paragraphColor);
 }
 
 #blank {
